@@ -1,0 +1,35 @@
+.close-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+}
+.close-button .icon {
+    width: 25px;
+    height: 25px;
+}
+.close-button:hover {
+    background: none; 
+}
+.interest, .details {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    margin-bottom: 10px;    
+}
+.details {
+    background-color: rgb(168, 169, 182);
+}
+.details:hover {
+    background-color: rgb(71, 71, 71);
+}
